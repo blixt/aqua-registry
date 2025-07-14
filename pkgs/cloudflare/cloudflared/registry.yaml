@@ -9,6 +9,7 @@ packages:
       - darwin
       - linux
       - amd64
+      - arm64
     asset: cloudflared-{{.OS}}-{{.Arch}}
     overrides:
       - goos: darwin
